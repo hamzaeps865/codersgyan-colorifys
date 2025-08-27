@@ -1,0 +1,30 @@
+{
+  "name": "packages",
+  "version": "1.0.0",
+  "description": "A  library to colorify your console.logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzaeps865/codersgyan-colorifys.git"
+  },
+  "keywords": [
+    "console log color",
+    " colorify logs"
+  ],
+  "author": "Hamza <hamzaeps865@gmail.com>",
+  "license": "MLT",
+  "bugs": {
+    "url": "https://github.com/hamzaeps865/codersgyan-colorifys/issues"
+  },
+  "homepage": "https://github.com/hamzaeps865/codersgyan-colorifys#readme",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "files": ["lib/**/*"]
+}
